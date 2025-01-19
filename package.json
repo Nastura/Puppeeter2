@@ -1,0 +1,20 @@
+{
+  "name": "dz5_puppeeter2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cucumber": "cucumber-js",
+    "cucumberOnly": "cucumber-js --tags=@only"
+  },
+  "author": "NastyaRu",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^4.5.0",
+    "cucumber": "^7.0.0-rc.0",
+    "jest": "^29.7.0",
+    "jest-puppeteer": "^11.0.0",
+    "puppeteer": "^24.1.0"
+  }
+}
